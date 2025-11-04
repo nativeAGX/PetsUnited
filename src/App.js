@@ -146,7 +146,7 @@ function Header({ onNavigate, currentPage }) {
           />
           <div>
             <h1>PetsUnited</h1>
-            <div style={{ fontSize: 12, color: "#64748b" }}>Animal Placement System</div>
+            <div style={{ fontSize: 12, color: "#64748b" }}>Animal Adoption System</div>
           </div>
         </div>
 
@@ -241,7 +241,7 @@ function HomePage({ stats, onNavigate, featuredPets, onSelectPet }) {
   return (
     <div className="container">
       <div className="hero">
-        <h2>PetsUnited: <span style={{ color: "#6366f1" }}>Animal Placement System</span></h2>
+        <h2>PetsUnited: <span style={{ color: "#6366f1" }}>Animal Adoption System</span></h2>
         <p style={{ marginTop: 12 }}>Your centralized hub for managing pet adoptions, tracking animal welfare, and connecting loving families with their new best friends.</p>
         <div style={{ marginTop: 16 }}>
           <button className="nav-button" onClick={() => onNavigate("AvailablePets")} style={{ background: "#4f46e5", color: "#fff", padding: "10px 18px", borderRadius: 999 }}>
